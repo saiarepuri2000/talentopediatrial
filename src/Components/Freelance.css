@@ -1,0 +1,115 @@
+@media only screen and (min-width: 900px){
+.slider-package .slick-slider .slick-arrow.slick-next {
+    right: -20px;
+} }
+  @media (max-width:768px) {
+    .slider-package .slick-slider .slick-arrow.slick-prev {
+      left: -7px;
+      border-radius: 30px;
+    }
+    .slider-package .slick-slider .slick-arrow.slick-next {
+      border-radius: 30px;
+      margin-left: -10px;
+    }
+  }
+  .slick-prev:before,
+.slick-next:before
+{
+  font-size: 5.2rem;
+  line-height: 1.035;
+}
+
+.max-width-container {
+  width: 100%;
+  padding: 24px 24px 48px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.logged-out-homepage .lohp-row {
+  margin: 0 auto 48px;
+}
+
+.slider-package .slick-slider .slick-arrow {
+    
+    background-color: #fecd08;
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: -24px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+    border: 0;
+    font-size: 16px;
+    line-height: 30%;
+
+}
+.slider-package .slick-slider {
+  margin: 0 6px;
+}
+
+.slider-package .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding-bottom: 20px;
+}
+.slider-package .slick-slider .slick-arrow.slick-prev {
+  left: -4px;
+  border-radius: 30px;
+}
+/*Next button*/
+.slider-package .slick-slider .slick-arrow.slick-next {
+  border-radius: 30px;
+  margin-left: -10px;
+}
+
+
+
+.row>* {
+  flex-shrink: 0;
+  max-width: 100%;
+  background:none;
+  padding-right: 0;
+  padding-left: 0;
+}
+.card {
+  position: relative;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  border:none;
+}
+
+.subcategory-wrapper {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+.ihover>img:hover{
+  
+     box-shadow: 0 4px 8px 0 rgba(54, 53, 53, 0.5), 0 6px 20px 0 rgba(236, 227, 227, 0.9); 
+}
+.empowertext {
+  padding-bottom: 20px;
+}
+
+/*trails on slick buttons*/
+.ihover {
+  display: inline;
+}
+.slick-prev:before {
+  content: "❮";
+  color: black;
+  font-size: 30px;
+}
+
+.slick-next:before {
+  content: "❯";
+  color: black;
+  font-size: 30px;
+}

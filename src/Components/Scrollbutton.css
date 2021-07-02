@@ -1,0 +1,11 @@
+.button {
+    position: fixed; 
+   width: 5%;
+   bottom: 20px;
+   height: 40px;
+   font-size: 10rem;
+   z-index: 5;
+   cursor: pointer;
+   color: rgb(0, 222, 252);
+   
+}

@@ -1,0 +1,2715 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  
+    font-size: 17px;
+    color: #333;
+    line-height: 1.6;
+    /* overflow: hidden; */
+  }
+  html, body {width: auto!important; overflow-x: hidden!important} 
+  #arrow {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  
+  #arrow:hover {
+    right: -5px;
+  }
+  
+  .o-section--feature-companies__logos {
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.75rem;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .get_moode_app {
+    text-align: center;
+    width: 220px;
+    height: 40px;
+    background-color: #ffd740;
+    padding: 10px 10px 5px 10px;
+    margin-top: 14px;
+    margin-right: 50px;
+    font-size: 13px;
+    font-family: Montserrat;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 5px;
+    float: right;
+  }
+  .get_moode_app_explore {
+  text-align: center;
+  width: 220px;
+  height: 40px;
+  background-color: #ffd740;
+  padding: 10px 10px 5px 10px;
+  margin-top: -52px;
+  margin-left: 23px;
+  position: absolute;
+  font-size: 13px;
+  font-family: Montserrat;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 700;
+  display: inline-block;
+  border-radius: 5px;
+  float: right;
+  }
+  .hidden-temp {
+    display: none;
+  }
+  
+  .talent-form-image{
+    width: 268px;
+    cursor: pointer
+  }
+  
+  .get_moode_app-update {
+    text-align: center;
+    width: 166px;
+    height: 40px;
+    background-color: #ffd740;
+    padding: 10px 10px 5px 10px;
+    margin-top: 18px;
+    /* margin-right: 50px; */
+    font-size: 15px;
+    font-family: Montserrat;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  .get-moode-app-text {
+    color: inherit;
+  }
+  
+  .get_moode_app:hover {
+    background-color: #fecd08;
+    color: #3a3a3a;
+  }
+  
+  .header_moods_mobile_bar {
+    height: 40px;
+    background: #ffffff;
+  }
+  
+  .header-nav {
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-size: 1.0625em;
+    letter-spacing: 1.2px;
+    padding-top: 19px;
+    text-align: center;
+    font-weight: bolder;
+    float: left;
+    padding-right: 1.5em;
+  }
+  
+a {
+    color: #333;
+    text-decoration: none;
+  }
+
+ 
+  
+  .user-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .user-image {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-bottom: 29px;
+    border-radius: 59px;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .name-us {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    color: black;
+    font-weight: 700;
+    margin-left: 20px;
+    width: 100%;
+    line-height: 20px;
+  }
+  
+  .user-talent {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    color: black;
+    width: 100%;
+    line-height: 20px;
+    margin-left: 20px;
+  }
+  
+  .top-rated {
+    float: left;
+    margin: 4px 9px;
+  }
+  
+  .rated-text {
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    display: flex;
+    margin-top: 11px;
+    font-weight: bolder;
+  }
+  
+  .coll-business-name{
+     font-family: "Montserrat",
+     sans-serif;
+     font-size: 14px;
+     padding-top: 14px;
+     font-weight: bold;
+     font-stretch: normal;
+     line-height: 1.3;
+     letter-spacing: 0.4px;
+     text-align: center;
+  }
+  .doller-text {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+  }
+  
+  .hr-text {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 20px;
+  }
+  
+  .location-text {
+    font-size: 15px;
+    line-height: 37px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+  }
+  
+  .skill-set {
+    background: #e0e0e0 !important;
+    color: #222 !important;
+    font-family: "Montserrat",
+    sans-serif;
+    font-size: 13px;
+    width: 171px;
+  }
+  
+  .skill-set-1 {
+    background: #e0e0e0 !important;
+    color: #222 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    width: 200px;
+    margin-top: 10px;
+  }
+  
+  .hr-border {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .business-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+    background-color: #fecd08;
+    margin-bottom: 80px;
+  }
+  
+  .empowertext-business {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    padding-top: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 1.3;
+    color: black;
+    letter-spacing: 0.4px;
+    padding-top: 59px;
+    text-align: center;
+  }
+  
+  .business-container-main {
+    background-color: #fecd08;
+    padding-bottom: 1px;
+  }
+  
+  .business-item {
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .business-item-1 {
+    background-color: #f5f5f5;
+    padding: 20px;
+    min-height: 300px;
+  }
+  
+  .business-text {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: white;
+    margin: auto auto;
+    margin-top: 9%;
+    font-weight: 700;
+  }
+  
+  .business-text-work {
+    font-size: 46px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: black;
+    margin: auto auto;
+    margin-top: 9%;
+    font-weight: 700;
+  }
+  
+  .empowertext {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    padding-top: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: 0.4px;
+    text-align: center;
+    margin-left: 3%;
+  }
+  
+  .empower-text-2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: 0.4px;
+    text-align: center;
+    margin-left: 3%;
+    margin-bottom: 1%;
+  }
+  
+  .ac-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    padding-top: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: 0.4px;
+    text-align: center;
+    margin-left: 24%;
+    margin-bottom: 3%;
+  }
+  
+  .sell-button {
+    transition: all 0.5s ease;
+    color: black;
+    border: 3px solid#fecd08;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 14px;
+    background-color: #eee;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 3%;
+    outline: none;
+    width: 234px;
+    border-radius: 10px;
+  }
+  
+  .sell-button:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  .sell-button-hire {
+    margin-right: 20px;
+    transition: all 0.5s ease;
+    color: black;
+    border: 2px solid#fecd08;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 14px;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-top: 2%;
+    outline: none;
+    width: 199px;
+    border-radius: 10px;
+  }
+  
+  .sell-button-hire:hover {
+    color: #fff;
+    background-color: black;
+  }
+  
+  .sign-up-text {
+    font-family: "Montserrat",
+    sans-serif;
+    font-size: 25px;
+    padding-top: 33px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .ac-text-2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    padding-top: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: 0.4px;
+    text-align: center;
+    margin-bottom: 62px;
+  }
+  
+  .header-nav-2 {
+    color: #333743;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.0625em;
+    padding-top: 19px;
+    letter-spacing: 1.2px;
+    /* margin-left: 10%; */
+    text-align: center;
+    font-weight: bolder;
+    padding-right: 1.5em;
+  }
+  
+  .header-nav-3 {
+    color: #333743;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.0625em;
+    padding-top: 19px;
+    letter-spacing: 1.2px;
+    
+    font-weight: bolder;
+    float: left;
+    padding-right: 1.5em;
+    
+  }
+  
+  .header-nav-4 {
+    color: #333743;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.0625em;
+    padding-top: 19px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-weight: bolder;
+    padding-right: 1.5em;
+  }
+  
+  .header-nav-5 {
+    color: #333743;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.0625em;
+    padding-top: 19px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-weight: bolder;
+    padding-right: 1.5em;
+  }
+  
+  .header-nav-5-2 {
+    color: #333743;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    width: 120px;
+    padding-top: 32px;
+    text-align: center;
+    font-weight: bolder;
+    float: left;
+    margin-left: 52px;
+  }
+  
+  .header_bar_div {
+    position: fixed;
+    z-index: 100;
+    background-color: #ffffff;
+  }
+  
+  .header-main-height {
+    height: 70px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 18px 36px 0 rgba(0, 0, 0, 0.08);
+  }
+  
+  .moode-logo-image {
+    margin-top: 10px;
+    height: 50px;
+    float: left;
+    border-radius: 10px;
+  
+    margin-left: 4%;
+    padding-right: 1.25rem;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .faq-head {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 21px 40px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.87);
+    padding-left: 10px;
+  }
+  
+  .we-are-hiring {
+    margin: 27px 50px;
+    width: 144px;
+  }
+  
+  .tpyellow-image {
+    width: 29%;
+    /* margin: auto; */
+    /* margin: 50px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* tab */
+  
+  .header-mood-bar-fixed {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+  }
+  
+  .header-mood-bar {
+    position: relative;
+  }
+  
+  
+  #showcase2 {
+     background-image: url("../src/resources/marketplace/Joinus.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  #showcase3 {
+     background-image: url("../src/resources/marketplace/future\ of\ work.jpg"); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    height: 75vh;
+    margin-bottom: 80px;
+  }
+  
+  .freelancers {
+    max-width: 100%;
+    float: right;
+    margin-bottom: 80px;
+    margin-right: 40px;
+  }
+  
+  .Sellers-platform {
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  #showcase4 {
+    /* background-image: url("../../resources/marketplace/freelancers.jpg"); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    display: none;
+    height: 113vh;
+    margin-bottom: 60px;
+  }
+  
+  .talento-heading {
+    width: 100%;
+    height: 109px;
+    font-family: Montserrat;
+    font-size: 49.2px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .talento-subheading {
+    width: 100%;
+    height: 162px;
+    font-family: Montserrat;
+    font-size: 66px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    margin-top: 20px;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .more-links {
+    padding-bottom: 0;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .more-links-1 {
+    padding-bottom: 0;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 29%;
+  }
+  
+  .leftRs {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-color: #ffcb23;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    /* box-shadow: 1px 2px 10px -1px #f00; */
+    border-radius: 999px;
+    left: 45px;
+  }
+  
+  .rightRs {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-color: #ffcb23;
+    width: 50px;
+    height: 50px;
+    /* box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3); */
+    border-radius: 999px;
+    border: 1px;
+    right: 45px;
+  }
+  
+  ::ng-deep {
+    .tile {
+    box-shadow: none;
+  }
+  }
+  .link-5 {
+    color: #3c3e49;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Montserrat;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+  }
+  
+  .link-5:hover {
+    font-size: 15px;
+    font-family: Montserrat;
+  }
+  
+  .arrow-link {
+    padding-left: 0;
+    border-bottom-style: none;
+    color: #000;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    border-bottom: 2px solid #fecd08;
+    cursor: pointer;
+  }
+  
+  .arrow-link:hover {
+    background-color: #fecd08;
+  }
+  
+  .seller-heading {
+    width: 666px;
+    height: 80px;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 900;
+    margin-left: 60px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.26;
+    letter-spacing: normal;
+    text-align: left;
+    color: #232323;
+  }
+  
+  .seller-subheading {
+    width: 923px;
+    height: 3px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 58px;
+    margin-bottom: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+  }
+  
+  .work-main-container {
+    margin-bottom: 30px;
+  }
+  /*
+  .faq-main-container {
+    margin-bottom: 80px;
+  } */
+  
+  .faq-container {
+    padding-top: 80px;
+    padding-left: 43px;
+  }
+  
+  .grid-image {
+    width: 250px;
+    height: 169px;
+  }
+  
+  .cardview {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .text-sub-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: -0.2px;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  
+  .text-sub-content {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 5;
+    font-style: normal;
+    font-stretch: normal;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 1.3;
+    letter-spacing: -0.2px;
+  }
+  
+  .grid-container {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    grid-gap: 22px;
+    max-width: 100%;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 3px solid rgba(0, 0, 0, 0.8); */
+  
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  ::ng-deep .mat-tab-label {
+    font-size: 29px;
+    font-family: Montserrat;
+  }
+  
+  ::ng-deep .mat-tab-labels {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: -36px;
+  }
+  
+  ::ng-deep .mat-tab-header {
+    display: grid;
+    overflow: hidden;
+    position: relative;
+    justify-items: end;
+    flex-shrink: 0;
+  }
+  
+  ::ng-deep .mat-tab-header,
+  .mat-tab-nav-bar {
+    border-bottom: 0px solid rgba(0, 0, 0, 0.12);
+    display: flow-root;
+  }
+  
+  .d-card {
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+  
+  #showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+  
+  #showcase p {
+    font-size: 20px;
+  }
+  
+  #showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .head-text {
+    /* width: 352px; */
+    height: 43px;
+    font-family: Montserrat;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 22px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+  }
+  
+  .folded-icons {
+        margin-top: 8px;
+    padding-right: 6px;
+  }
+  
+  .sub-head-text {
+    /* width: 442px; */
+    height: 121px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    margin: 19px;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  .work-text-head {
+    height: 101px;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 600;
+    padding: 60px 50px;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 2.26; */
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .work-text-head-faq {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 600;
+    padding: 32px 50px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .work-text-head-join {
+    height: 101px;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: -92px;
+    padding: 4px 48px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .work-sub-text-join {
+    height: 93px;
+    width: 50%;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    padding: 41px 50px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .work-text-head-talentopedia {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 600;
+    width: 100;
+    width: 90%;
+    padding-left: 48px;
+    padding-bottom: 15px;
+    margin-top: 90px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+  }
+  
+  .work-sub-text-talentopedia {
+    width: 90%;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    padding-left: 46px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+  }
+  
+  .work-sub-text {
+    height: 93px;
+    width: 50%;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    padding: 41px 50px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .faq-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    grid-column-gap: 50px;
+    padding-bottom: 80px;
+  }
+  
+  .faq-item {
+    padding: 20px;
+  }
+  
+  .live-now {
+    width: 100px;
+    width: 108px;
+    display: block;
+    margin-left: 18px;
+    margin-right: auto;
+  }
+  
+  .join-now-container {
+    padding: 41px 50px;
+  }
+  
+  .live-now-text {
+    height: 62px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    padding-top: 20px;
+    font-style: normal;
+    margin-left: 20px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aeaeae;
+  }
+  
+  .join-now-button {
+    width: 142px;
+    height: 58px;
+    border-radius: 10px;
+    background-color: #fdcc23;
+  }
+  
+  .join-now-text {
+    /* width: 210px; */
+    /* height: 30px; */
+    font-family: Montserrat;
+    font-size: 21px;
+    padding: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191819;
+  }
+  
+  .accordion {
+    max-width: 597px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Montserrat;
+  
+  }
+  
+  .accordion__label,
+  .accordion__content {
+    padding: 14px 20px;
+  }
+  
+  .accordion__label {
+    display: block;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    transition: background 0.1s;
+  }
+  
+  .accordion__label:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion__label::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:black;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+  }
+  
+  
+  .accordion__content {
+    background: #eee;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+  }
+  
+  .accordion__input {
+    display: none;
+  }
+  
+  .accordion__input:checked~.accordion__content {
+    display: block;
+  }
+  .accordion__input::not(:checked)~.accordion__content {
+    display: none;
+  }
+  .accordion__input:checked~.accordion__label::after {
+    transform: translateY(-50%) rotate(0.5turn);
+  }
+  
+  #showcase .button:hover {
+    background: #926239;
+    color: #fff;
+  }
+  
+  #section-a {
+    padding: 20px;
+    background: #926239;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #section-b {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  #section-c {
+    display: flex;
+  }
+  
+  #section-c div {
+    padding: 20px;
+  }
+  
+  #section-c .box-1,
+  #section-c .box-3 {
+    background: #926239;
+    color: #fff;
+  }
+  
+  #section-c .box-2 {
+    background: #f9f9f9;
+  }
+  
+  .faq-main-container {
+    background-color: #FBF7ED;
+    height: 100%;
+  }
+  
+  @media (max-width: 540px) {
+    .o-section--feature-companies__logos {
+      display: none;
+      -ms-flex-wrap: wrap;
+      -ms-flex-pack: distribute;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 0.75rem;
+    }
+  
+    .talent-form-image {
+  
+     width: 268px;
+     cursor: pointer;
+     padding-bottom: 33px;
+    }
+  
+  
+    .business-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      padding: 20px;
+      background-color: #fecd08;
+      margin-bottom: 80px;
+    }
+  
+    .empowertext-business {
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      padding-top: 28px;
+      font-weight: bold;
+      font-stretch: normal;
+      line-height: 1.3;
+      color: black;
+      letter-spacing: 0.4px;
+      padding-top: 59px;
+      text-align: center;
+    }
+  
+    .business-container-main {
+      background-color: #fecd08;
+    }
+  
+    .business-item {
+      background-color: black;
+      padding: 20px;
+      min-height: 300px;
+    }
+  
+    .business-item-1 {
+      background-color: #f5f5f5;
+      padding: 20px;
+      min-height: 300px;
+    }
+  
+    .business-text {
+      font-size: 30px;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      color: white;
+      margin: auto auto;
+      margin-top: 26%;
+      font-weight: 700;
+    }
+  
+    .business-text-work {
+      font-size: 27px;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      color: black;
+      margin: auto auto;
+      margin-top: 26%;
+      font-weight: 700;
+    }
+  
+    .empowertext {
+      font-family: "Montserrat",
+      sans-serif;
+      padding-top: 28px;
+      font-size: 30px;
+      font-weight: bold;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      /* padding-top: 50px; */
+      text-align: center;
+      margin-left: 3%;
+    }
+  
+    .empower-text-2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 23px;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      text-align: center;
+      margin-left: 3%;
+      margin-bottom: 1%;
+    }
+  
+    .ac-text {
+      font-family: "Montserrat", sans-serif;
+      font-size: 19px;
+      padding-top: 28px;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      text-align: center;
+      margin-left: 28%;
+      margin-bottom: 3%;
+    }
+  
+    .sell-button {
+      transition: all 0.5s ease;
+      color: black;
+      border: 3px solid#fecd08;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+      font-size: 14px;
+      margin-left: 15%;
+      background-color: #eee;
+      padding: 10px;
+      margin-top: 26px;
+      cursor: pointer;
+      font-weight: bolder;
+      margin-top: 8%;
+      outline: none;
+      width: 212px;
+      border-radius: 10px;
+    }
+  
+    .sell-button:hover {
+      color: white;
+      background-color: black;
+    }
+  
+    .empowertext {
+     font-family: "Montserrat",
+     sans-serif;
+     padding-top: 28px;
+     font-size: 30px;
+     font-weight: bold;
+     font-stretch: normal;
+     line-height: 1.3;
+     letter-spacing: 0.4px;
+     /* padding-top: 50px; */
+     text-align: center;
+     margin-left: 3%;
+    }
+  
+    .empower-text-2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 23px;
+      font-size: 1em;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      text-align: center;
+      margin-left: 3%;
+      margin-bottom: 1%;
+      padding-top: 10px;
+    }
+    
+  
+    .ac-text {
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      padding-top: 28px;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      text-align: center;
+      margin-left: -2%;
+      margin-bottom: 3%;
+    }
+  
+    .ac-text-2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      padding-top: 28px;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      text-align: center;
+      margin-left: -2%;
+      margin-bottom: 100px;
+    }
+  
+    .sell-button-hire {
+     margin-right: 14px;
+     transition: all 0.5s ease;
+     color: black;
+     border: 2px solid#fecd08;
+     font-family: "Montserrat",
+     sans-serif;
+     text-transform: uppercase;
+     text-align: center;
+     line-height: 1;
+     font-size: 17px;
+     height: 57px;
+     background-color: transparent;
+     padding: 12px;
+     cursor: pointer;
+     font-weight: bolder;
+     margin-top: 2%;
+     outline: none;
+     width: 162px;
+     border-radius: 10px;
+    }
+  
+    .sell-button-hire:hover {
+      color: #fff;
+      background-color: black;
+    }
+  
+    #arrow {
+      position: relative;
+      top: 0;
+      transition: top ease 0.5s;
+    }
+  
+    #arrow:hover {
+      right: -5px;
+    }
+  
+    .get_moode_app {
+      text-align: center;
+      width: 138px;
+      height: 50px;
+      background-color: #ffd740;
+      padding: 8px 10px 5px 10px;
+      margin-top: 11px;
+      margin-right: 12px;
+      margin-bottom: 11px;
+      font-family: Montserrat;
+      color: rgba(0, 0, 0, 0.87);
+      font-weight: 600;
+      display: inline-block;
+      border-radius: 5px;
+      float: right;
+    }
+  
+    .we-are-hiring {
+      margin: 30px 19px;
+      width: 131px;
+    }
+  
+    .tpyellow-image {
+      width: 55%;
+      /* margin: auto; */
+      /* margin: 50px; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #showcase {
+      /* background-image: url("../../resources/marketplace/black.jpg"); */
+      background-size: cover;
+      background-position: center;
+      height: 65vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 100%;
+      width: 100;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+  
+    #showcase2 {
+      /* background-image: url("../../resources/marketplace/Joinus.jpg"); */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      height: 60vh;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+  
+    .faq-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 10px;
+      grid-column-gap: 50px;
+    }
+  
+    .faq-main-container {
+      background-color: #FBF7ED;
+      height: 100%;
+      margin-bottom: -76px;
+    }
+  
+    .faq-item {
+      padding: 20px;
+    }
+  
+    #showcase3 {
+      /* background-image: url("../../resources/marketplace/future of work.jpg"); */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 20px;
+      height: 59vh;
+    }
+  
+    #showcase4 {
+      /* background-image: url("../../resources/marketplace/freelancers.jpg"); */
+      background-size: cover;
+      background-position: right;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-top: 142px;
+      text-align: center;
+      padding: 0 20px;
+      height: 45vh;
+      margin-bottom: 60px;
+    }
+  
+    .freelancers {
+      max-width: 100%;
+      float: right;
+      margin-bottom: 40px;
+    }
+  
+    .talento-heading {
+      width: 100%;
+      height: 79px;
+      font-family: Montserrat;
+      font-size: 29.2px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .talento-subheading {
+      width: 100%;
+      height: 84px;
+      font-family: Montserrat;
+      font-size: 28px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.23;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .seller-heading {
+      height: 56px;
+      width: 98%;
+      font-family: Montserrat;
+      font-size: 28px;
+      font-weight: 900;
+      margin-left: 0px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.26;
+      margin-top: 15px;
+      letter-spacing: normal;
+      text-align: center;
+      color: #232323;
+    }
+  
+    .seller-subheading {
+      width: 97%;
+      height: 89px;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: normal;
+      margin-left: 3px;
+      margin-top: 30px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #4a4a4a;
+    }
+  
+    .faq-container {
+      padding: 11px;
+    }
+  
+    .cardview {
+      width: 50%;
+      margin: auto;
+    }
+  
+    .grid-image {
+      width: 273px;
+      height: 185px;
+      margin: -20px;
+    }
+  
+    .text-sub-header {
+      font-family: "Montserrat", sans-serif;
+      font-size: 25px;
+      font-weight: bolder;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: -0.2px;
+      text-align: center;
+      padding-bottom: 12px;
+    }
+  
+    .text-sub-content {
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: 5;
+      font-style: normal;
+      font-stretch: normal;
+      padding-bottom: 20px;
+      text-align: center;
+      line-height: 1.3;
+      letter-spacing: -0.2px;
+    }
+  
+    .grid-container {
+      display: block;
+      height: auto;
+      grid-template-columns: 1fr 1fr 1fr;
+  
+      padding: 32px;
+      grid-gap: 10px;
+    }
+  
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      /* border: 3px solid rgba(0, 0, 0, 0.8); */
+  
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    ::ng-deep .mat-tab-label {
+      font-size: 24px;
+      font-family: Montserrat;
+    }
+  
+    ::ng-deep .mat-tab-labels {
+      display: inline-block;
+    }
+  
+    ::ng-deep .mat-tab-header {
+      display: grid;
+      overflow: hidden;
+      position: relative;
+      justify-items: end;
+      flex-shrink: 0;
+    }
+  
+    ::ng-deep .mat-tab-header,
+    .mat-tab-nav-bar {
+      border-bottom: 0px solid rgba(0, 0, 0, 0.12);
+      display: flow-root;
+      padding-top: 80px;
+    }
+  
+    .d-card {
+      grid-auto-columns: 1fr;
+      grid-column-gap: 16px;
+      -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+    }
+  
+    #showcase h1 {
+      font-size: 50px;
+      line-height: 1.2;
+    }
+  
+    #showcase p {
+      font-size: 20px;
+    }
+  
+    #showcase .button {
+      font-size: 18px;
+      text-decoration: none;
+      color: #926239;
+      border: #926239 1px solid;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  
+    .head-text {
+      /* width: 352px; */
+      height: 32px;
+      font-family: Montserrat;
+      font-size: 24px;
+      margin-top: 20px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #2d2d2d;
+    }
+  
+    .sub-head-text {
+      /* width: 442px; */
+      height: 159px;
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.65;
+      letter-spacing: normal;
+      text-align: left;
+    }
+  
+    .work-text-head {
+      height: 16px;
+      font-family: Montserrat;
+      font-size: 25px;
+      font-weight: 600;
+      padding: 48px 13px;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .work-text-head-join {
+      height: 101px;
+      font-family: Montserrat;
+      font-size: 23px;
+      font-weight: 600;
+      margin-top: 2px;
+      padding: 10px 19px;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .work-sub-text-join {
+      height: 93px;
+      width: 100%;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      padding: 0px 22px;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .work-text-head-talentopedia {
+      font-family: Montserrat;
+      font-size: 24px;
+      width: 100%;
+      font-weight: 600;
+      font-stretch: normal;
+      margin-top: 44px;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: black;
+    }
+  
+    .work-text-head-faq {
+      height: 6px;
+      font-family: Montserrat;
+      font-size: 21px;
+      font-weight: 600;
+      padding: 40px 27px;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.87);
+    }
+  
+    .work-sub-text-talentopedia {
+      width: 100%;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      padding: 5px 3px;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: black;
+    }
+  
+    .work-sub-text {
+      height: 55px;
+      width: 100%;
+      font-family: Montserrat;
+      font-size: 15px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      padding: 21px 13px;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .live-now {
+      width: 31%;
+      display: block;
+    }
+  
+    .join-now-container {
+      padding: 2%;
+    }
+  
+    .live-now-text {
+      height: 62px;
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: 900;
+      font-stretch: normal;
+      padding-top: 20px;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #aeaeae;
+    }
+  
+    .join-now-button {
+      width: 131px;
+      height: 55px;
+      border-radius: 10px;
+      background-color: #fdcc23;
+      margin-left: 104px;
+    }
+  
+    .join-now-text {
+      /* width: 210px; */
+      /* height: 30px; */
+      font-family: Montserrat;
+      font-size: 18px;
+      padding: 19px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #191819;
+    }
+  
+    .accordion {
+      max-width: 597px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      overflow: hidden;
+      font-family: Montserrat;
+    }
+  
+    .accordion__label,
+    .accordion__content {
+      padding: 14px 20px;
+    }
+  
+    .accordion__label {
+      display: block;
+      color: black;
+      font-weight: bolder;
+      cursor: pointer;
+      position: relative;
+      transition: background 0.1s;
+    }
+  
+    .accordion__label:hover {
+      background: rgba(0, 0, 0, 0.1);
+    }
+  
+    .accordion__label::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px;
+      width: 12px;
+      height: 6px;
+      background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:black;" /></svg>');
+      background-size: contain;
+      transition: transform 0.4s;
+    }
+  
+    .accordion__content {
+      background: #ffffff;
+      line-height: 1.6;
+      font-size: 0.85em;
+      display: none;
+    }
+  
+    .accordion__input {
+      display: none;
+    }
+  
+    .accordion__input:checked~.accordion__content {
+      display: block;
+    }
+  
+    .accordion__input:checked~.accordion__label::after {
+      transform: translateY(-50%) rotate(0.5turn);
+    }
+  
+    #showcase .button:hover {
+      background: #926239;
+      color: #fff;
+    }
+  
+    #section-a {
+      padding: 20px;
+      background: #926239;
+      color: #fff;
+      text-align: center;
+    }
+  
+    #section-b {
+      padding: 20px;
+      background: #f4f4f4;
+      text-align: center;
+    }
+  
+    #section-c {
+      display: flex;
+    }
+  
+    #section-c div {
+      padding: 20px;
+    }
+  
+    #section-c .box-1,
+    #section-c .box-3 {
+      background: #926239;
+      color: #fff;
+    }
+  
+    #section-c .box-2 {
+      background: #f9f9f9;
+    }
+  }
+  
+  @media (min-width: 541px) and (max-width: 768px) {
+    .o-section--feature-companies__logos {
+      display: none;
+      -ms-flex-wrap: wrap;
+      /* flex-wrap: wrap-reverse; */
+      -ms-flex-pack: distribute;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 0.75rem;
+    }
+    .talent-form-image{
+  
+      cursor: pointer;
+      width: 268px;
+      padding-bottom: 33px;
+    }
+  
+    .business-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      padding: 50px;
+      background-color: #fecd08;
+      margin-bottom: 80px;
+    }
+  
+    .empowertext-business {
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      padding-top: 28px;
+      font-weight: bold;
+      font-stretch: normal;
+      line-height: 1.3;
+      color: black;
+      letter-spacing: 0.4px;
+      padding-top: 59px;
+      text-align: center;
+    }
+  
+    .business-container-main {
+      background-color: #fecd08;
+    }
+  
+    .business-item {
+      background-color: black;
+      padding: 20px;
+      min-height: 300px;
+    }
+  
+    .business-item-1 {
+      background-color: #f5f5f5;
+      padding: 20px;
+      min-height: 300px;
+    }
+  
+    .business-text {
+      font-size: 30px;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      color: white;
+      margin: auto auto;
+      margin-top: 13%;
+      font-weight: 700;
+    }
+  
+    .business-text-work {
+      font-size: 27px;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      color: black;
+      margin: auto auto;
+      margin-top: 13%;
+      font-weight: 700;
+    }
+  
+    .empowertext {
+      font-family: "Montserrat",
+      sans-serif;
+      padding-top: 28px;
+      font-size: 30px;
+      font-weight: bold;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      /* padding-top: 50px; */
+      text-align: center;
+      margin-left: 3%;
+    }
+  
+    .empower-text-2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 23px;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      text-align: center;
+      margin-left: 3%;
+      margin-bottom: 1%;
+    }
+  
+    .ac-text {
+      font-family: "Montserrat", sans-serif;
+      font-size: 19px;
+      padding-top: 28px;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      text-align: center;
+      margin-left: 28%;
+      margin-bottom: 3%;
+    }
+  
+    .sell-button {
+      transition: all 0.5s ease;
+      color: black;
+      border: 3px solid#fecd08;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+      font-size: 14px;
+      background-color: #eee;
+      padding: 10px;
+      margin-top: 26px;
+      cursor: pointer;
+      font-weight: bolder;
+      margin-top: 4%;
+      outline: none;
+      width: 212px;
+      border-radius: 10px;
+    }
+  
+    .sell-button:hover {
+      color: white;
+      background-color: black;
+    }
+  
+    .empowertext {
+      font-family: "Montserrat",
+      sans-serif;
+      padding-top: 28px;
+      font-size: 30px;
+      font-weight: bold;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      /* padding-top: 50px; */
+      text-align: center;
+      margin-left: 3%;
+    }
+  
+    .empower-text-2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 23px;
+      font-size: 1em;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      text-align: center;
+      margin-left: 3%;
+      margin-bottom: 1%;
+      padding-top: 10px;
+    }
+  
+    
+  
+    .ac-text {
+      font-family: "Montserrat", sans-serif;
+      font-size: 26px;
+      padding-top: 28px;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      text-align: center;
+      margin-left: -2%;
+      margin-bottom: 3%;
+    }
+  
+    .ac-text-2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 26px;
+      padding-top: 28px;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: 0.4px;
+      text-align: center;
+      margin-left: -2%;
+      margin-bottom: 100px;
+    }
+  
+    .sell-button-hire {
+      margin-right: 14px;
+      transition: all 0.5s ease;
+      color: black;
+      border: 2px solid#fecd08;
+      font-family: "Montserrat",
+      sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+      font-size: 17px;
+      height: 57px;
+      background-color: transparent;
+      padding: 12px;
+      cursor: pointer;
+      font-weight: bolder;
+      margin-top: 2%;
+      outline: none;
+      width: 162px;
+      border-radius: 10px;
+    }
+  
+    .sell-button-hire:hover {
+      color: #fff;
+      background-color: black;
+    }
+  
+    #arrow {
+      position: relative;
+      top: 0;
+      transition: top ease 0.5s;
+    }
+  
+    #arrow:hover {
+      right: -5px;
+    }
+  
+    .get_moode_app {
+      text-align: center;
+      width: 190px;
+      height: 46px;
+      background-color: #ffd740;
+      padding: 12px 10px 5px 10px;
+      margin-top: 14px;
+      margin-right: 12px;
+      font-size: 13px;
+      font-family: Montserrat;
+      color: rgba(0, 0, 0, 0.87);
+      font-weight: 700;
+      display: inline-block;
+      border-radius: 5px;
+      float: right;
+    }
+  
+    .we-are-hiring {
+      margin: 30px 19px;
+      width: 131px;
+    }
+  
+    .tpyellow-image {
+      width: 49%;
+      /* margin: auto; */
+      /* margin: 50px; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #showcase {
+      /* background-image: url("../../resources/marketplace/black.jpg"); */
+      background-size: cover;
+      background-position: center;
+      height: 65vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 100%;
+      width: 100;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+  
+    #showcase2 {
+      /* background-image: url("../../resources/marketplace/Joinus.jpg"); */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      height: 60vh;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+  
+    .faq-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 10px;
+      grid-column-gap: 50px;
+    }
+  
+    .faq-main-container {
+      background-color: #FBF7ED;
+      height: 100%;
+    }
+  
+    .faq-item {
+      padding: 20px;
+    }
+  
+    #showcase3 {
+      /* background-image: url("../../resources/marketplace/future of work.jpg"); */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 20px;
+      height: 59vh;
+    }
+  
+    #showcase4 {
+      /* background-image: url("../../resources/marketplace/freelancers.jpg"); */
+      background-size: cover;
+      background-position: right;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-top: 142px;
+      text-align: center;
+      padding: 0 20px;
+      height: 45vh;
+      margin-bottom: 60px;
+    }
+  
+    .freelancers {
+      max-width: 100%;
+      float: right;
+      margin-bottom: 10px;
+    }
+  
+    .talento-heading {
+      width: 100%;
+      height: 79px;
+      font-family: Montserrat;
+      font-size: 29.2px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .talento-subheading {
+      width: 100%;
+      height: 84px;
+      font-family: Montserrat;
+      font-size: 28px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.23;
+      padding-top: 32px;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .seller-heading {
+      height: 56px;
+      width: 98%;
+      font-family: Montserrat;
+      font-size: 28px;
+      font-weight: 900;
+      margin-left: 0px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.26;
+      margin-top: 15px;
+      letter-spacing: normal;
+      text-align: center;
+      color: #232323;
+    }
+  
+    .seller-subheading {
+      width: 97%;
+      height: 89px;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: normal;
+      margin-left: 3px;
+      margin-top: 30px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #4a4a4a;
+    }
+  
+    .faq-container {
+      padding: 11px;
+    }
+  
+    .cardview {
+      width: 50%;
+      margin: auto;
+    }
+  
+    .grid-image {
+      width: 185px;
+      height: 113px;
+      margin: -20px;
+    }
+  
+    .text-sub-header {
+      font-family: "Montserrat", sans-serif;
+      font-size: 25px;
+      font-weight: bolder;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: -0.2px;
+      text-align: center;
+      padding-bottom: 12px;
+    }
+  
+    .text-sub-content {
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: 5;
+      font-style: normal;
+      font-stretch: normal;
+      padding-bottom: 20px;
+      text-align: center;
+      line-height: 1.3;
+      letter-spacing: -0.2px;
+    }
+  
+    .grid-container {
+      display: inline-grid;
+      height: auto;
+      grid-template-columns: 1fr 1fr 1fr;
+  
+      padding: 32px;
+      grid-gap: 10px;
+    }
+  
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      /* border: 3px solid rgba(0, 0, 0, 0.8); */
+  
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    ::ng-deep .mat-tab-label {
+      font-size: 24px;
+      font-family: Montserrat;
+    }
+  
+    ::ng-deep .mat-tab-labels {
+      display: inline-block;
+    }
+  
+    ::ng-deep .mat-tab-header {
+      display: grid;
+      overflow: hidden;
+      position: relative;
+      justify-items: end;
+      flex-shrink: 0;
+    }
+  
+    ::ng-deep .mat-tab-header,
+    .mat-tab-nav-bar {
+      border-bottom: 0px solid rgba(0, 0, 0, 0.12);
+      display: flow-root;
+      padding-top: 80px;
+    }
+  
+    .d-card {
+      grid-auto-columns: 1fr;
+      grid-column-gap: 16px;
+      -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+    }
+  
+    #showcase h1 {
+      font-size: 50px;
+      line-height: 1.2;
+    }
+  
+    #showcase p {
+      font-size: 20px;
+    }
+  
+    #showcase .button {
+      font-size: 18px;
+      text-decoration: none;
+      color: #926239;
+      border: #926239 1px solid;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  
+    .head-text {
+      /* width: 352px; */
+      height: 17px;
+      font-family: Montserrat;
+      font-size: 16px;
+      margin-top: 20px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #2d2d2d;
+    }
+  
+    .sub-head-text {
+      /* width: 442px; */
+      height: 129px;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.65;
+      letter-spacing: normal;
+      text-align: left;
+    }
+  
+    .work-text-head {
+      height: 16px;
+      font-family: Montserrat;
+      font-size: 34px;
+      font-weight: 600;
+      padding: 48px 13px;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .work-text-head-join {
+      height: 101px;
+      font-family: Montserrat;
+      font-size: 23px;
+      font-weight: 600;
+      margin-top: 2px;
+      padding: 10px 19px;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .work-sub-text-join {
+      height: 34px;
+      width: 100%;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      padding: 0px 22px;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .work-text-head-talentopedia {
+      font-family: Montserrat;
+      font-size: 27px;
+      width: 88%;
+      font-weight: 600;
+      font-stretch: normal;
+      margin-top: 44px;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: black;
+    }
+  
+    .work-text-head-faq {
+      height: 6px;
+      font-family: Montserrat;
+      font-size: 27px;
+      font-weight: 600;
+      padding: 40px 27px;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.87);
+    }
+  
+    .work-sub-text-talentopedia {
+      width: 100%;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      padding: 5px 3px;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: black;
+    }
+  
+    .work-sub-text {
+      height: 55px;
+      width: 100%;
+      font-family: Montserrat;
+      font-size: 21px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      padding: 21px 13px;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+  
+    .live-now {
+      width: 34%;
+      display: block;
+    }
+  
+    .join-now-container {
+      padding: 35px 186px;
+    }
+  
+    .live-now-text {
+      height: 49px;
+      font-family: Montserrat;
+      font-size: 11px;
+      font-weight: 900;
+      font-stretch: normal;
+      padding-top: 17px;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #aeaeae;
+    }
+  
+    .join-now-button {
+      width: 131px;
+      height: 55px;
+      border-radius: 10px;
+      background-color: #fdcc23;
+      margin-left: 104px;
+    }
+  
+    .join-now-text {
+      /* width: 210px; */
+      /* height: 30px; */
+      font-family: Montserrat;
+      font-size: 18px;
+      padding: 19px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #191819;
+    }
+  
+    .accordion {
+      max-width: 687px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      overflow: hidden;
+      font-family: Montserrat;
+    }
+  
+    .accordion__label,
+    .accordion__content {
+      padding: 14px 20px;
+    }
+  
+    .accordion__label {
+      display: block;
+      color: black;
+      font-weight: bolder;
+      cursor: pointer;
+      position: relative;
+      transition: background 0.1s;
+    }
+  
+    .accordion__label:hover {
+      background: rgba(0, 0, 0, 0.1);
+    }
+  
+    .accordion__label::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px;
+      width: 12px;
+      height: 6px;
+      background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:black;" /></svg>');
+      background-size: contain;
+      transition: transform 0.4s;
+    }
+  
+    .accordion__content {
+      background: #ffffff;
+      line-height: 1.6;
+      font-size: 0.85em;
+      display: none;
+    }
+  
+    .accordion__input {
+      display: none;
+    }
+  
+    .accordion__input:checked~.accordion__content {
+      display: block;
+    }
+  
+    .accordion__input:checked~.accordion__label::after {
+      transform: translateY(-50%) rotate(0.5turn);
+    }
+  
+    #showcase .button:hover {
+      background: #926239;
+      color: #fff;
+    }
+  
+    #section-a {
+      padding: 20px;
+      background: #926239;
+      color: #fff;
+      text-align: center;
+    }
+  
+    #section-b {
+      padding: 20px;
+      background: #f4f4f4;
+      text-align: center;
+    }
+  
+    #section-c {
+      display: flex;
+    }
+  
+    #section-c div {
+      padding: 20px;
+    }
+  
+    #section-c .box-1,
+    #section-c .box-3 {
+      background: #926239;
+      color: #fff;
+    }
+  
+    #section-c .box-2 {
+      background: #f9f9f9;
+    }
+  }
+  
+@media (min-width:543px) and (max-width:635px) {
+  .grid-image {
+    width: 150px;
+    height: 80px;
+  }
+  .head-text {
+    padding-bottom: 30px;
+  }
+}

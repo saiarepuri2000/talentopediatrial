@@ -1,0 +1,168 @@
+@media (min-width: 992px){
+.col-md-4 {
+    width: 33.33333333%;
+    float: left;
+} }
+@media (max-width: 992px) {
+    .col-md-4 {
+        width: 100%;
+    }
+    
+}
+@media (max-width:992px) {
+    .col-md-8{
+        width: 100%;
+    }
+    
+}
+.username {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    color:  #464545;
+    margin-top: 10px;
+    margin-left: -15px;
+    font-family: Montserrat,sans-serif;
+}
+.profile-photo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 10px 50px;
+}
+.userprofile{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: auto;
+}
+.verified-user{
+    top: 11%;
+    position: absolute;
+    left: 55%;
+    height: 48px;
+}
+.cityname {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3px;
+    color:  #747474;
+    font-weight: 500;
+    margin-left: -15px;
+}
+.aboutme {
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    overflow-wrap: normal;
+    font-style: normal;
+    font-stretch: normal;
+    overflow: hidden;
+    padding-top: 20px;
+    display: flex;
+    line-height: 1.42;
+    color: #202020c9;
+    text-align: justify;
+    margin: auto;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 20px;
+    margin-top: 5%;
+    font-family: Montserrat,sans-serif;
+}
+.stats-item {
+    /* padding: 20px; */
+    padding-top: 10px;
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bolder;
+    color:  #747474;
+}
+.item-right {
+    text-align: right;
+}
+.userprofile-work-pic{
+    box-shadow: 0 4px 10px 0 rgba(8, 8, 8, 0.5), 0 6px 10px 0 rgba(105, 104, 104, 0.5);
+}
+.userprofile-work-pic {
+    width: 183px;
+    height: 179px;
+    margin-right: 18px;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    align-self: flex-start;
+}
+.play_button_userprofile {
+    position: absolute;
+    top: 32%;
+    padding-left: 50px;
+    margin: auto;
+}
+.storyland-header-connect-btn, .storyland-header-follow-btn {
+    width: 17rem;
+    height: 30px;
+    padding-bottom: 30px;
+    background: #fdc202;
+    padding-top: 7px;
+    text-align: center;
+    color: #3a3a3a;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 1.8px;
+    font-family: Montserrat,sans-serif;
+    /* margin: 0 10px; */
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.btn-right {
+    float: right;
+}
+.btn-left {
+    padding-left: 10px;
+}
+.tplogo {
+    width: 40px;
+    height: 40px;
+}
+.showt {
+    width:25px;
+    height: 25px;
+}
+
+/*Talents*/
+.Talent-name {
+    padding-top: 20px;
+    font-family: Montserrat,sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bolder;
+    color:  rgb(31, 30, 30);
+    padding-bottom: 20px;
+}
+.userprofileslick .slick-slider .slick-arrow{
+    top: 52%;
+}
+.userprofileslick .slick-slider .slick-arrow.slick-prev {
+    left: -20px;
+}
+.slick-slider .slick-track {
+    margin-left: 0px;
+}
+@media (max-width: 590px) {
+    .userprofile-work-pic{
+        margin: auto;
+    }
+    .play_button_userprofile{
+        top:30%;
+        margin-left: 20%;
+    }
+}

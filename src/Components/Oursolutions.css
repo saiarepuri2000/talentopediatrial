@@ -1,0 +1,32 @@
+.mat-tab-label {
+    height: 48px;
+    padding: 0 24px;
+    cursor: pointer;
+    box-sizing: border-box;
+    opacity: .6;
+    min-width: 160px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    position: relative;
+}
+.MuiTab-wrapper {
+    font-size: 29px;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #000;;
+    font-weight: bolder;
+    white-space: nowrap;
+    font-family: Montserrat;
+    
+}
+.PrivateTabIndicator-root-1.PrivateTabIndicator-colorSecondary-3{
+    background-color: #fdc202;
+    height: 4px;
+}
+.MuiTabs-flexContainer {
+  width: 400px;
+  margin: auto;
+}

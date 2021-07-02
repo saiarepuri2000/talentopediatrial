@@ -1,0 +1,66 @@
+.d-flex .justify-center .container{
+    max-width: 100%;
+    margin: auto;
+}
+.w-100 {
+    margin: auto;
+}
+.login-block {
+    
+    min-height: 93.6vh;
+}
+
+.login-block .auth-box {
+    margin: 20px auto 0;
+    max-width: 450px !important;
+}
+
+.card1 {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(43, 43, 43, .1), 0 11px 6px -7px rgba(43, 43, 43, .1);
+    box-shadow: 0 0 10px 0 rgba(43, 43, 43, .1), 0 11px 6px -7px rgba(43, 43, 43, .1);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    padding-top: 20px;
+    width: 350px;
+}
+
+.card .card-block {
+    padding: 1.25rem
+}
+
+.heading {
+    font-family: Montserrat;
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: 700;
+    color:#404145
+}
+
+.card-block .signing-entry .signing-footer {
+    padding: 12px 0;
+    border-top: 1px solid #0d3075;
+}
+.signing-footer {
+   display: flex;
+   -webkit-box-pack: center;
+   justify-content: center;
+   -webkit-box-flex: 1;
+   flex: 1 1;
+   border-top: 1px solid #e4e5e7;
+   padding: 12px 0;
+}
+.text-body-2 {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333;
+}
+.card-block .link-button.yellow {
+    color: #fecd08;
+    padding-left: 5px;
+    font-weight: 600;
+}

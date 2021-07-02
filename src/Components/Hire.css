@@ -1,0 +1,499 @@
+.users-data-container{
+    background-color: #f3f3f3bd;
+    margin-bottom: 5%;
+}
+.clearfix-hire {
+    background-color: #f3f3f3bd;
+}
+.hoverimg{
+    box-shadow: 0 4px 10px 0 rgba(8, 8, 8, 0.5), 0 6px 10px 0 rgba(105, 104, 104, 0.5);
+}
+ .user-work .modal-video {
+    background-color: rgba(75, 74, 74, 0.103);
+}/*
+.user-work .__react_modal_image__modal_container{
+    background-color: rgba(58, 57, 57, 0.459);
+} */
+.user-work .__react_modal_image__modal_container .__react_modal_image__modal_content .__react_modal_image__medium_img {
+    max-width: 90%;
+    max-height: 80%;
+}
+.user-container-hire{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 13px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: -69px;
+}
+.card-hire,.btn {
+    position: relative;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.user-detail-item {
+    background-color: hsla(0,0%,100%,.8);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+.user-details {
+    display: flex;
+    margin-top: 16px;
+    -webkit-box-flex: 1;
+    flex: 1;
+    height: 95%;
+    max-width: inherit;
+}
+.profilephoto,.work-pic {
+    position: relative;
+    align-self: flex-start;
+}
+.profilephoto {
+    width: 130px;
+    height: 135px;
+    margin-right: 20px;
+    border-radius: 71px;
+    margin-left: 50px;
+}
+.verified-icon {
+    top: 38%;
+    position: absolute;
+    left: 74px;
+    height: 53px;
+}
+.userInfo {
+    -webkit-box-flex: 1;
+    flex: auto;
+    display: table-footer-group;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    max-width: calc(100%-145px);
+}
+.user-name {
+    font-family: Montserrat,sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    line-height: 1.2;
+    letter-spacing: .2px;
+    color: #000;
+    text-transform: capitalize;
+    max-width: calc(100% - 95px);
+}
+.user-info {
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: #0f0d0d;
+}
+
+.about-user, .user-info {
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 1.2;
+    text-transform: capitalize;
+    max-width: calc(100% - 95px);
+}
+
+.user-experience {
+    margin-bottom: 0;
+    margin-top: 17px;
+}
+
+.user-experience, .user-location {
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.2;
+    color: #000;
+    text-transform: capitalize;
+    max-width: calc(100% - 95px);
+}
+.user-location {
+    margin-top: 4px;
+}
+.projectsList {
+    margin-left: -10px;
+}
+.actions,.projectsList {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.work-pic {
+    width: 183px;
+    height: 179px;
+    margin-right: 18px;
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.post_detail_play_button_style1 {
+    position: absolute;
+    top: 32%;
+    padding-left: 48px;
+    margin: auto;
+}
+.click_class {
+    cursor: pointer;
+}
+.post_play_icon {
+    width: 80px;
+    height: 80px;
+}
+.actions {
+    text-align: center;
+    line-height: 30px;
+    height: 34px;
+    font-size: 13px;
+    padding: 0 5px;
+    justify-content: left;
+    font-weight: 500;
+    width: 100%;
+    margin-left: 70px;
+    margin-top: 0px;
+    white-space: nowrap;
+}
+.b-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.btn {
+    background-color: #fecd08;
+    font-weight: 500;
+    font-family:Montserrat,sans-serif;
+}
+.btn {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 12px;
+    transition: .22s;
+    color: #000;
+    margin-right: 33px;
+    margin-top: 25px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: .5px;
+    cursor: pointer;
+    line-height: 30px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+.no-user-text {
+    width: 100%;
+    height: 162px;
+    font-family: Montserrat;
+    font-size: 66px;
+    font-weight: 600;
+    font-stretch: normal;
+    margin-top: 21%;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+}
+.no-data {
+    margin-top: 31%;
+    align-items: center;
+    text-align: center;
+    margin-left: 45%;
+}
+.paginate-row {
+    margin-top: 25px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+@media (min-width:768px) and (max-width:1050px) {
+    .work-pic {
+        width: 120px;
+        height: 120px;
+    }
+    .post_play_icon {
+        width: 50px;
+        height: 50px
+    }
+    .post_detail_play_button_style1 {
+        top: 31%;
+        padding-left: 33px;
+        max-height: 10px;
+    }
+    .verified-icon {
+        top:40%;
+    }
+}
+@media (min-width:835px) and (max-width:1050px) {
+    .actions {
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 835px) {
+    .user-container-hire {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: #fff;
+        padding: 10px;
+        
+        margin: 103px 10px 60px 10px;
+        margin-bottom: -59px;
+    }
+    .user-detail-item {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .user-details {
+        display: grid;
+    }
+    .verified-icon {
+        top:22%;
+        left: 55%;
+        height: 50px;
+    }
+    .userInfo {
+        display: contents;
+    }
+    .about-user,.user-name {
+        color: #747474;
+        text-transform: capitalize;
+    }
+    .user-name {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 62px;
+    }
+    .user-experience,.user-info,.user-location {
+        font-family: Montserrat,sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 62px;
+    line-height: 1.2;
+    color: #747474;
+    text-transform: capitalize;
+    }
+    .work-pic {
+        width: 112px;
+        height: 137px;
+        margin-top: 34px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .work-pic, .profilephoto {
+        margin-right: 20px;
+        position: relative;
+        align-self: flex-start;
+    }
+    .post_detail_play_button_style1 {
+        top: 65%;
+        padding-left: 25px;
+        max-height: 10px;
+    }
+    .post_play_icon {
+        width: 60px;
+        height: 60px;
+    }
+    .actions,.projectsList {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .actions {
+        margin-left: 45%;
+        margin-top: 20px;
+    }
+    .paginate-row {
+        margin-left: 22%;
+    }
+}
+@media screen and (max-width:455px){
+    .work-pic {
+        width: 90px;
+        height: 100px;
+    }
+    .paginate-row {
+        margin-top: 18%;
+        margin-bottom: 50px;
+    }
+    .verified-icon {
+        top:22%;
+        left: 58%;
+        height: 65px;
+    }
+    .pagination>li{
+        font-size: 10px;
+        font-weight: 600;
+        font-family: Montserrat;
+    }
+    .pagination > li > a{
+        padding: 5px 5px;
+    }
+    .post_detail_play_button_style1 {
+        margin-left: -2.5%;
+    }
+}
+
+
+/*zoom in and zoom out*/
+.show {
+    display: block;
+}
+.Dontshow {
+    display: none;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  
+  
+  /* Add Animation */
+  .modal-content {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  /*React Modal*/
+  
+.overlay-base {
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition-property: background-color, opacity;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-after {
+    background-color: rgba(0, 0, 0, 0.103);;
+    opacity: 1;
+  }
+  
+  .overlay-before {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+  }
+  
+  .content-base {
+    position: relative;
+    margin: 0 auto;
+    border: 0;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0%;
+    width: 0%;
+    background-color: transparent;
+    transition-property: background-color, width, height;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .content-after {
+    width: 60%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .content-before {
+    width: 0%;
+    height: 0%;
+    background-color: transparent;
+  }
+  video {
+	width: 100%;
+    height: 100%;
+	max-width: 960px;
+}
